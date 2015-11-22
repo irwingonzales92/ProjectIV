@@ -11,6 +11,11 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIStoryboard * initialStoryboard;
+
+- (void)resetWindowToInitialView;
+//+ (void)registerForPushNotifications;
+
 
 
 @end
